@@ -16,7 +16,7 @@ public class App
     {
         // 检查参数
         Assert.notEmpty(args, "必须提供路径");
-        Assert.isTrue(FileUtil.isDirectory(args[0]), "提供路径的不正常");
+        Assert.isTrue(FileUtil.isDirectory(args[0]), "提供路径的不正常，请查看使用说明.");
         final String DIR = args[0];
 
         // 获取壁纸
